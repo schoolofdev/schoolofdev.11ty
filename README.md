@@ -1,9 +1,10 @@
 # SchoolOfDev.com
 ## Description
-A simple Eleventy Starter Kit websie built using Eleventastic/Radical11ty ([Demo Site](https://eleventastic.netlify.com)).
+Student, Teacher or Researcher - Everyone can learn at the [School of Dev](https://schoolofdev.com)!
+[![Netlify Status](https://api.netlify.com/api/v1/badges/93d58efc-cfd8-4387-a200-378fcff19d5c/deploy-status)](https://app.netlify.com/sites/schoolofdev/deploys)
 
-## Installation (Powered by [nuget](https://nuget.org/packages/AppBlocks.MongoDbService))
-PM> ```Install-Package AppBlocks.MongoDbService```
+## Details
+More details coming soon! A rocking website AND NATIVE MOBILE APPS!!
 
 ## Copyright
 [SchoolofDev.com](https://schoolofdev.com), [David Walker](https://radicaldave.com), [Radical Dave](https://github.com/radical-dave), [Sitecore Dave](https://github.com/sitecoredave)
@@ -15,61 +16,4 @@ PM> ```Install-Package AppBlocks.MongoDbService```
 MIT License: https://github.com/schoolofdev/schoolofdev.11ty/blob/main/LICENSE
 
 Reference:
-
-# Eleventastic
-
-A simple Eleventy Starter Kit, my base for all new 11ty projects. ([Demo Site](https://eleventastic.netlify.com))
-
-[![Netlify Status](https://api.netlify.com/api/v1/badges/f78ec52d-8328-4e40-b6da-a0f9164e80d1/deploy-status)](https://app.netlify.com/sites/eleventastic/deploys)
-
-## Features
-
-* CSS Pipeline (Sass, CleanCSS)
-* JS Bundling (Webpack)
-* SVG Icon Sprite Generation
-* Critical CSS
-* HTML Minification
-* No external builds, everything runs through 11ty
-
-## Getting Started
-
-To install the necessary packages, run this command in the root folder of the site:
-
-```sh
-npm install
-```
-
-### Commands
-
-* Run `npm start` for a development server and live reloading
-* Run `npm run build` to generate a production build
-
-## Deploy a fork of this template to Netlify
-
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/maxboeck/eleventastic)
-
-## CSS
-
-Styling works with Sass. The main index file is in `src/assets/styles/main.scss`. Import any SCSS code you want in there; it will be processed and optimized. The output is in `dist/assets/styles/main.css`
-
-## JS
-
-Javascript can be written in ES6 syntax. The main index file is in `src/assets/scripts/main.js`. It will be transpiled to ES5 with babel, bundled together with webpack, and minified in production. The output is in `dist/assets/scripts/main.js`
-
-## SVG Icons
-
-All SVG files added to `src/assets/icons` will be bundled into a `symbol` sprite file. The SVG filename will then be used as the symbol identifier and the icon can be used as a shortcode.
-
-For example, if you have a `github.svg` file in that folder, you can display it anywhere by using `{% icon "github" %}` in your templates.
-
-## Critical CSS
-
-Currently, critical CSS will only be inlined in the head of the homepage. This is done by using the [critical](https://github.com/addyosmani/critical) package in an automatic transform.
-
-## Credits
-
-My heartfelt thanks to these people, whom I shamelessly copied ideas from:
-
-* Phil Hawksworth: [EleventyOne](https://github.com/philhawksworth/eleventyone)
-* Mike Riethmuller: [Supermaya](https://github.com/MadeByMike/supermaya)
-* Zach Leatherman: [zachleat.com](https://github.com/zachleat/zachleat.com)
+# [Eleventastic](https://eleventastic.netlify.com)
