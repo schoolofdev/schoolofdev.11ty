@@ -1,0 +1,8 @@
+<footer class="footer" role="contentinfo">
+    <div class="footer__inner container">
+        <span><a href="{{ meta.url }}">{{ meta.title }} &copy; Copyright {{ build.timestamp | dateToFormat('yyyy') }}</a></span>
+        <a href="{{ meta.url }}">
+            {% icon "github" %}{{ meta.title }}
+        </a>
+    </div>
+</footer>
