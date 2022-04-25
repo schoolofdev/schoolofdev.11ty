@@ -1,0 +1,12 @@
+---
+layout: base
+permalink: /movies/
+---
+<div class="container">
+    <h1>Movies</h1>
+    <div class="row">
+    {% for movie in movies %}
+      <div class="item" style="width:30%"><a href="/movies/{{ movie.title | slug }}"><img src="{{movie.image}}" alt="{{movie.title}}" title="{{movie.title}}" border="0" style="width:100%"></a></div>
+    {% endfor %}
+    </div>
+</div>

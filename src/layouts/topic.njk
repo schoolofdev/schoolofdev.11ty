@@ -1,0 +1,21 @@
+--------
+layout: base
+permalink: /topics/{{ topic.title | slug }}/
+pagination:
+  data: topics
+  size: 1
+  alias: topic
+eleventyComputed:
+  title: "{{ topic.title }}"
+--------
+
+## {{ topic.title }}
+
+  - Created in **{{ topic.created }}**
+  - Edited in **{{ topic.edited }}**
+  - Created by **{{ topic.creatorid }}**
+  - Edited by **{{ topic.editorid }}**
+
+{{ topic.description }}
+
+[<< See all topics](/topics)

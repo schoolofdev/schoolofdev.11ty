@@ -3,7 +3,10 @@ layout: base
 eleventyNavigation:
   key: Home
 ---
-
 <div class="container">
-    <h1>A radical blank 11ty project.</h1>
+    <h1>Welcome to {{ meta.title }}</h1>
+    <p>You will not believe what we have planned! Stay tuned! Better yet, <a href="{{ meta.url }}">Jump in and Help</a>!?</p>
+    <p>We will educate, enlighten and expand your knowledge across a wide range of topics (easily add new ones!)</p>
+    {# <p>We will educate, enlighten and expand your knowledge across the following topics (easily add new ones!):
+      <ul>{% for topic in topics %}<li>{{topic.title}}</li>{% endfor %}</ul></p> #}
 </div>

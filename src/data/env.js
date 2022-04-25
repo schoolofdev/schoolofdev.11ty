@@ -1,0 +1,1 @@
+mode: process.env.MODE || 'public'

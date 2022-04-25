@@ -1,0 +1,12 @@
+---
+layout: base
+permalink: /topics/
+---
+<div class="container">
+    <h1>Topics</h1>
+    <div class="row">
+    {% for topic in topics %}
+      <div class="card"><a href="/topics/{{ topic.title | slug }}"><img src="{{topic.image}}" alt="{{ topic.title }}" border="0">{{ topic.title }}</a></div>
+    {% endfor %}
+    </div>
+</div>
