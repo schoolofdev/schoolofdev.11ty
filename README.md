@@ -3,7 +3,7 @@
 Student, Teacher or Researcher - Everyone can learn at the [School of Dev](https://schoolofdev.com)!
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/93d58efc-cfd8-4387-a200-378fcff19d5c/deploy-status)](https://app.netlify.com/sites/schoolofdev/deploys)
-![GitHub branch checks state](https://img.shields.io/github/checks-status/schoolofdev/schoolofdev.11ty/main)
+[![GitHub branch checks state](https://img.shields.io/github/checks-status/schoolofdev/schoolofdev.11ty/main)](https://github.com/schoolofdev/schoolofdev.11ty/main)
 
 ## Details
 More details coming soon! A rocking website AND NATIVE MOBILE APPS!!
