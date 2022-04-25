@@ -3,5 +3,6 @@
     "description": "SchoolOfDev.com - Prepare to get Educated!",
     "url": "https://github.com/schoolofdev/schoolofdev.11ty",
     "lang": "en",
-    "locale": "en_us"
+    "locale": "en_us",
+    "image": "/assets/images/schoolofdev_small.jpg"
 }
